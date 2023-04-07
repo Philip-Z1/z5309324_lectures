@@ -74,8 +74,8 @@ prc_dic = {
   }
 
 # Get the price on '2020-01-13', in this case, 7.02
-x  = '?'
-#print(f'The price on 2020-01-13 is {x}')    
+x  = prc_dic['2020-01-13']
+print(f'The price on 2020-01-13 is {x}')
 
 
 # Try the following... it will not work because we cannot slice dictionaries
